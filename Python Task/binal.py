@@ -1,7 +1,7 @@
 n= int(input("enter value :"))
 
 if n<10 or n>100 :
-    print('please enter value up to 5 and less to 20')
+    print('please enter value up to 10 and less to 100')
 else :
         for i in range(1,n+1):
             for m in range(i):
